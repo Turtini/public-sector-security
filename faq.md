@@ -4,6 +4,10 @@ This FAQ addresses common questions related to FedRAMP, authorization boundaries
 
 The answers are intentionally concise and focus on clarifying common misconceptions rather than providing implementation guidance.
 
+For background and detailed explanations, see:
+- [FedRAMP Explained](fedramp.md)
+- [Repository Overview](README.md)
+
 ---
 
 ## Is Red Hat “FedRAMP approved”?
