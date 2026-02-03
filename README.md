@@ -145,6 +145,6 @@ This content is published under the Creative Commons Zero (CC0) license and may 
 ## Maintained By
 
 **Turtini LLC**  
-Public Sector Technology Partner  
+Public sector–focused technology consultancy and reseller  
 
 https://turtini.github.io
