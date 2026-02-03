@@ -1,6 +1,6 @@
 # FedRAMP Explained
 
-This document provides a practical, plain-language explanation of the Federal Risk and Authorization Management Program (:contentReference[oaicite:0]{index=0}) and how it is commonly applied in real federal environments.
+This document provides a practical, plain-language explanation of the Federal Risk and Authorization Management Program (FedRAMP) and how it is commonly applied in real federal environments.
 
 It is intended to support security, procurement, and audit conversations by clarifying common points of confusion.
 
