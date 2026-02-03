@@ -8,6 +8,14 @@ The intent is to support informed discussions with:
 - System owners, ISSOs, and security teams
 - Integrators and audit partners
 
+## Repository Contents
+
+- **[FedRAMP Explained](fedramp.md)**  
+  A plain-language overview of FedRAMP, authorization boundaries, impact levels, and shared responsibility models.
+
+- **[Frequently Asked Questions](faq.md)**  
+  Concise answers to common FedRAMP and compliance questions encountered in federal security and audit discussions.
+
 This content is informational and explanatory in nature. It does not replace formal authorization artifacts, security documentation, or agency-specific compliance determinations.
 
 ---
