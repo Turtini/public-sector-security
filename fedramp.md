@@ -4,6 +4,13 @@ This document provides a practical, plain-language explanation of the Federal Ri
 
 It is intended to support security, procurement, and audit conversations by clarifying common points of confusion.
 
+---
+
+For related context and common questions, see:
+- [Frequently Asked Questions](faq.md)
+- [Repository Overview](README.md)
+
+
 This document is informational only and does not assert authorization status for any specific system or deployment.
 
 ---
