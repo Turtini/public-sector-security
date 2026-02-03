@@ -1,6 +1,6 @@
 # Public Sector Security
 
-This repository provides clear, audit-safe guidance on how public sector security and compliance are commonly evaluated and implemented, with a focus on practical alignment to U.S. federal requirements such as :contentReference[oaicite:0]{index=0}.
+This repository provides clear, audit-safe guidance on how public sector security and compliance are commonly evaluated and implemented, with a focus on practical alignment to U.S. federal requirements such as FedRAMP environments.
 
 The intent is to support informed discussions with:
 - Federal customers
