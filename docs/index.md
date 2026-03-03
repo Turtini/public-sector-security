@@ -10,4 +10,3 @@ Clear, audit-safe guidance on how security and compliance are evaluated in U.S. 
 ../fedramp
 ../boundaries
 ../faq
-```
