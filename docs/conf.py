@@ -6,8 +6,8 @@ extensions = [
 ]
 
 # IMPORTANT: make the landing page live at docs/index.md
-root_doc = "docs/index"   # (Sphinx >= 7)
-# master_doc = "docs/index"  # optional fallback for older setups
+root_doc = "index"
+master_doc = "index"
 
 # Let Sphinx read Markdown
 source_suffix = {
