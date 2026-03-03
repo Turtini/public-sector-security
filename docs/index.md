@@ -6,7 +6,7 @@ Clear, audit-safe guidance on how security and compliance are evaluated in U.S. 
 :maxdepth: 2
 :caption: Contents
 
-../README
-../fedramp
-../boundaries
-../faq
+README
+fedramp
+boundaries
+faq
