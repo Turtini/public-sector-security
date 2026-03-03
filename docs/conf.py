@@ -1,21 +1,25 @@
-from __future__ import annotations
-
-from datetime import datetime
 from turtini_sphinx_theme import get_theme_paths
 
-project = "Public Sector Security"
-author = "Turtini LLC"
-copyright = f"{datetime.utcnow().year}, Turtini LLC"
+# ---- Core Sphinx settings ----
+extensions = [
+    "myst_parser",
+]
 
-extensions = ["myst_parser"]
+# IMPORTANT: make the landing page live at docs/index.md
+root_doc = "docs/index"   # (Sphinx >= 7)
+# master_doc = "docs/index"  # optional fallback for older setups
 
-# Markdown + (optional) rst support
-source_suffix = {".md": "markdown", ".rst": "restructuredtext"}
-root_doc = "index"
+# Let Sphinx read Markdown
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
 
-html_theme = "sphinx_rtd_theme"
-
+# ---- Theme wiring (your existing approach) ----
 _paths = get_theme_paths()
 templates_path = [_paths["templates"]]
 html_static_path = [_paths["static"]]
 html_css_files = ["turtini.css"]
+
+# Avoid build artifacts
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
