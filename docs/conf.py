@@ -1,25 +1,28 @@
-from turtini_sphinx_theme import get_theme_paths
+# -- Project information -----------------------------------------------------
+project = "Public Sector Security"
+copyright = "Turtini"
+author = "Turtini"
 
-# ---- Core Sphinx settings ----
+# -- General configuration ---------------------------------------------------
 extensions = [
-    "myst_parser",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.napoleon",
+    "sphinx.ext.viewcode",
 ]
 
-# IMPORTANT: make the landing page live at docs/index.md
-root_doc = "index"
-master_doc = "index"
+# -- Options for HTML output -------------------------------------------------
+html_theme = "sphinx_rtd_theme"
 
-# Let Sphinx read Markdown
-source_suffix = {
-    ".rst": "restructuredtext",
-    ".md": "markdown",
+# (Optional) Match the left-nav behavior you’re used to
+html_theme_options = {
+    "navigation_depth": 4,
+    "collapse_navigation": False,
+    "sticky_navigation": True,
+    "includehidden": True,
 }
 
-# ---- Theme wiring (your existing approach) ----
-_paths = get_theme_paths()
-templates_path = [_paths["templates"]]
-html_static_path = [_paths["static"]]
-html_css_files = ["turtini.css"]
+# (Optional) If you have a logo like your main docs
+# html_logo = "_static/turtini-logo.svg"
+# html_favicon = "_static/favicon.ico"
 
-# Avoid build artifacts
-exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+html_static_path = ["_static"]
